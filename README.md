@@ -2,7 +2,7 @@
 Projet applications d'innovations
 
 Ce dépot contient 4 fichiers :
-* Ce fichier README.md qui contient les explications ci-dessous
+* Ce fichier README.md
 
 * Le fichier fusion_fichier.py permet de générer le fichier de bigramme qui a fusionné tous ceux du répertoire MEGALITE_FRANCAIS_bi
 
