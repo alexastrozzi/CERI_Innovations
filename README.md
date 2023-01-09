@@ -2,16 +2,7 @@
 Projet applications d'innovations
 
 Ce dépot contient 3 fichiers :
-- GAT & Hallucinations - Alexa STROZZI.pdf
-Correspond à l'article, en pdf, rédigé pour ce projet 
-
-- Article STROZZI Alexa - Application Innovation.rar
-Correspond aux sources Latex d l'article ci-dessus
-
-- Code du Projet Innovation - Défi 4 - Alexa STROZZI.rar 
-Correspond au code source du projet
-Ce fichier contient lui-même :
-* Le fichier A_lire qui contient les explications ci-dessous
+* Ce fichier README.md qui contient les explications ci-dessous
 
 * Le fichier fusion_fichier.py permet de générer le fichier de bigramme qui a fusionné tous ceux du répertoire MEGALITE_FRANCAIS_bi
 
@@ -23,8 +14,8 @@ Le code fonctionne si on enlève, dans le répertoire MEGALITE_FRANCAIS_bi, les 
 Je n'ai pas mis le répertoire MEGALITE_FRANCAIS_bi ni le fichier fusionné car ils sont trop grop pour l'archive.
 
 Il faut donc commencer par :
-1 - Déziper ce fichier dans un répertoire qui contient lui même le répertoire MEGALITE_FRANCAIS_bi
-2 - Enlever les 5 fichiers qui font planter le programme
+1 - Copier ces fichiers dans un répertoire qui contient lui même le répertoire MEGALITE_FRANCAIS_bi
+2 - Enlever les 5 fichiers de MEGALITE_FRANCAIS_bi qui font planter le programme (à savoir : Keats,_John-La_veille_de_la_sainte_agnes=POESIA.pdf.seg.bi, Montesquieu,_Charles-Le_temple_de_gnide=POESIA.pdf.seg.bi, Verhaeren,_Emile-Les_heures_claires=POESIA.pdf.seg.bi, Verlaine,_Paul-Chansons_pour_elle=POESIA.pdf.seg.bi et Verlaine,_Paul-Les_poetes_maudits=POESIA.pdf.seg.bi)
 3 - Exécuter en premier fusion_fichier.py
 4 - Puis generateur_phrases_2.py
  
